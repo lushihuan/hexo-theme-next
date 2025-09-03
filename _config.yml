@@ -774,10 +774,6 @@ google_analytics:
 # See: https://tongji.baidu.com
 baidu_analytics: 3fa5fd91afd555401c1f737fbbeec801 # <app_id>
 
-# Growingio Analytics
-# See: https://www.growingio.com
-growingio_analytics: # <project_id>
-
 # Cloudflare Web Analytics
 # See: https://www.cloudflare.com/web-analytics/
 cloudflare_analytics:
