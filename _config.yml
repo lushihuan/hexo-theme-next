@@ -118,7 +118,7 @@ menu_settings:
 
 sidebar:
   # Sidebar position. Available values: left | right
-  position: right
+  position: left
 
   # Sidebar width.
   # Applicable to Muse | Mist and mobile of Pisces | Gemini.
