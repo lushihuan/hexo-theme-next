@@ -45,6 +45,12 @@ scheme: Mist
 # Dark Mode
 darkmode: true
 
+# Light-Dark Mode
+lightdark:
+  enable: false
+  # Add @supports (color: light-dark(red, red)) check
+  check_supports: true
+
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -64,7 +70,7 @@ custom_logo: #/uploads/custom-logo.png
 # See: https://creativecommons.org/about/cclicenses/
 creative_commons:
   # Available values: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | cc-zero
-  license: by
+  license: by-nc-sa
   # Available values: big | small
   size: small
   sidebar: true
@@ -297,7 +303,7 @@ related_posts:
 # Easily browse and edit blog source code online.
 post_edit:
   enable: false
-  #url: https://github.com/lushihuan/lushihuan.github.io/tree/master/source/_posts/ # Link for view source
+  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
@@ -727,6 +733,10 @@ gitalk:
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
   language:
+  # If you want to customize the content of the initialized Issue, please edit the body parameter.
+  # For example:
+  # body: Comments for post ${title}, see ${url}
+  body:
 
 # Utterances
 # For more information: https://utteranc.es
