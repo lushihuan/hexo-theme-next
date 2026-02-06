@@ -14,7 +14,7 @@ cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -151,9 +151,9 @@ avatar:
   # Replace the default image and set the url here.
   url: /images/avatar.jpg
   # If true, the avatar will be displayed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -175,8 +175,8 @@ social:
 
 social_icons:
   enable: true
-  icons_only: false
-  transition: false
+  icons_only: true
+  transition: true
 
 # Blog rolls
 links_settings:
@@ -364,9 +364,9 @@ theme_color:
 # Override browsers' default behavior.
 body_scrollbar:
   # Place the scrollbar over the content.
-  overlay: false
+  overlay: true
   # Reserving space for the scrollbar gutter even if the content is not overflowing.
-  stable: false
+  stable: true
 
 codeblock:
   # Code Highlight theme
@@ -384,17 +384,17 @@ codeblock:
     style:
   # Fold code block
   fold:
-    enable: false
+    enable: true
     height: 500
   # Display language name
-  language: false
+  language: true
 
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
